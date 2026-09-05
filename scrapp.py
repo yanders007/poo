@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # 1. L'URL du site à scraper
-url = "https://quotes.toscrape.com/"
+url = "https://Google.com/"
 
 print(f"[*] Connexion à {url}...")
 
