@@ -12,7 +12,7 @@ try:
     
     # On vérifie si la requête a réussi (Code 200)
     if response.status_code == 200:
-        print("[+] Page récupérée avec succès ! Analyse en cours...\n")
+        print("[+] Page récupérée avec succès ! Analyse...\n")
         
         # 3. Parser le contenu HTML
         soup = BeautifulSoup(response.text, 'html.parser')
